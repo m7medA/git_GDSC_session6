@@ -1,0 +1,517 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    margin: 0;
+}
+
+.contianer {
+    width: 95%;
+    margin: auto;
+    margin-top: 40px;
+    background-color: black;
+}
+
+
+.page1 .contianer {
+    width: 100%;
+    position: relative;
+
+}
+
+.page1 .contianer .background {
+    width: 100%;
+    height: 90vh;
+    background-image: url('photo/background.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.page1 .contianer .background img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+    background-attachment: fixed;
+}
+
+.page1 .contianer .navbar {
+    width: 100%;
+    height: 50px;
+    top: 0;
+    position: absolute;
+    z-index: 4;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.page1 .contianer .navbar nav {
+    margin-right: 225px;
+}
+
+.page1 .contianer .navbar a {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    margin: 15px;
+    font-size: 15px;
+}
+
+.page1 .contianer .navbar #ho {
+    text-decoration: underline;
+}
+
+.page1 .contianer .navbar p {
+    margin-left: 225px;
+    color: white;
+    font-size: 25px;
+    font-family: 'Pacifico', 'cursive';
+}
+
+.page1 .contianer .layer {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgba(93, 107, 119, 0.2);
+}
+
+.page1 .contianer .layer .text {
+    text-align: center;
+}
+
+.page1 .contianer .layer .text #up {
+    font-size: 50px;
+    font-family: 'Pacifico';
+}
+
+
+.page1 .contianer .layer .text #down {
+    font-size: 150px;
+    font-weight: bold;
+}
+
+/*
+
+
+
+
+
+page2
+
+
+*/
+
+
+
+
+.page2 .contianer {
+    margin-top: 0;
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    display: flex;
+    flex-wrap: nowrap;
+    padding-top: 5px;
+}
+
+.page2 .contianer .rigth {
+    width: 60%;
+    height: 100%;
+    background-color: rgb(255 230 234);
+    display: flex;
+}
+
+.page2 .contianer .rigth .photo {
+    width: 50%;
+    height: 100%;
+    position: relative;
+}
+
+.page2 .contianer .rigth .photo .layer {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(93, 107, 119, 0.2);
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+
+.page2 .contianer .rigth .photo img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+
+}
+
+.page2 .contianer .rigth .photo .layer:hover {
+    opacity: 1;
+}
+
+.page2 .contianer .rigth .text {
+    width: 50%;
+    height: 100%;
+    text-align: center;
+}
+
+.page2 .contianer .rigth .text h2 {
+    color: rgb(249, 50, 116);
+    font-size: 30px;
+    margin-top: 40px;
+}
+
+.page2 .contianer .rigth .text .dash {
+    width: 35%;
+    height: 1.5px;
+    background-color: rgb(249, 50, 116);
+    margin-left: 185px;
+    margin-bottom: 25px;
+}
+
+.page2 .contianer .rigth .text p {
+    margin-bottom: 15px;
+}
+
+.page2 .contianer .rigth .text .price {
+    margin-top: 30px;
+    margin-bottom: 5px;
+    color: rgb(249, 50, 116);
+}
+
+.page2 .contianer .rigth .text button {
+    width: 30%;
+    height: 40px;
+    background-color: rgb(249, 50, 116);
+    border: none;
+    border-radius: 20%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+
+}
+
+.page2 .contianer .rigth .text i {
+    color: white;
+    margin: auto;
+    padding-left: 20px;
+    scale: 1.2;
+}
+
+.page2 .contianer .rigth .text button p {
+    margin: auto;
+    color: white;
+    padding-right: 20px;
+    margin-left: 10px;
+}
+
+
+
+.page2 .contianer .left {
+    width: 40%;
+    height: 100%;
+    background-color: transparent;
+    color: white;
+    text-align: center;
+
+}
+
+.page2 .contianer .left h3 {
+    margin-top: 40px;
+    margin-bottom: 15px;
+    font-size: 23px;
+}
+
+.page2 .contianer .left .down {
+    margin-top: 15px;
+    margin-bottom: 30px;
+    color: rgb(249, 50, 116);
+}
+
+.page2 .contianer .left i {
+    scale: 2;
+    margin: 30px;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+
+.page2 .contianer .left i:hover {
+    color: rgb(249, 50, 116);
+}
+
+/*
+
+
+
+
+
+
+
+
+page3
+
+
+
+
+
+
+
+
+
+
+
+*/
+
+.page3 {
+    background-color: black;
+    width: 100%;
+}
+
+.page3 .contianer {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.page3 .contianer h2 {
+    color: white;
+    padding-top: 25px;
+    margin-bottom: 30px;
+}
+
+.page3 .contianer .parent {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.page3 .contianer .parent .child {
+    width: 32%;
+    height: 600px;
+    border-radius: 5%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.page3 .contianer .parent .child .img {
+    width: 80%;
+    height: 490.2px;
+    border-radius: 5%;
+    margin: auto;
+    position: relative;
+}
+
+.page3 .contianer .parent .child img {
+    width: 100%;
+    border-radius: 5%;
+    position: absolute;
+    left: 0;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    scale: 1;
+}
+
+.page3 .contianer .parent .child .img .layer {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background-color: rgba(93, 107, 119, 0.3);
+    border-radius: 5%;
+    opacity: 0;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+
+.page3 .contianer .parent .child .img .layer:hover {
+    opacity: 1;
+}
+
+.page3 .contianer .child button {
+    width: 30%;
+    height: 40px;
+    background-color: rgb(249, 50, 116);
+    border: none;
+    border-radius: 20%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 30px;
+
+}
+
+.page3 .contianer .child i {
+    color: white;
+    margin: auto;
+    padding-left: 20px;
+    scale: 1.2;
+}
+
+.page3 .contianer .child button p {
+    margin: auto;
+    color: white;
+    padding-right: 20px;
+    margin-left: 10px;
+}
+
+.page3 .contianer .child .price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    color: white;
+    margin-top: 20px;
+}
+
+.page3 .contianer .child .price p {
+    width: 50%;
+}
+
+/*
+
+
+
+
+
+
+
+
+photo
+
+
+*/
+.page {
+    width: 100%;
+    height: 400px;
+}
+
+.page .contianer {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.page .contianer .img {
+    width: 100%;
+    height: 100%;
+    background-image: url('photo/lizzie-BqYoSL76lGo-unsplash\ 2.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+
+/*
+
+
+
+
+
+
+end
+
+
+
+
+*/
+
+.page4 .contianer {
+    width: 100%;
+    background-color: black;
+    height: 400px;
+    margin: 0;
+}
+
+.page4 .contianer .up {
+    width: 100%;
+    height: 80%;
+}
+
+.page4 .contianer .up .parent {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.page4 .contianer .up .parent .child {
+    width: 24%;
+    height: 100%;
+    margin-top: 50px;
+    color: white;
+}
+
+.page4 .contianer .up .parent .child h2 {
+    margin: 20px;
+}
+
+.page4 .contianer .up .parent .child h2:hover {
+    color: rgb(249, 50, 116);
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+
+.page4 .contianer .up .parent .child p {
+    margin: 20px;
+    transition-property: all;
+    transition-duration: 0.25s;
+    transition-timing-function: ease-in-out;
+}
+
+.page4 .contianer .up .parent .child p:hover {
+    color: bisque;
+    transform: translate(30px);
+    scale: 1.2;
+}
+
+
+
+.page4 .contianer .down {
+    width: 100%;
+    height: 20%;
+    text-align: center;
+}
+
+.page4 .contianer .down i {
+    color: white;
+    margin: 20px;
+    scale: 1.5;
+    transition-property: all;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-in-out;
+}
+
+.page4 .contianer .down i:hover {
+
+    color: rgb(249, 50, 116);
+}
